@@ -72,7 +72,6 @@ public class MainActivity2 extends AppCompatActivity {
 
 
         search.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View view) {
                 symptom.setHint("SYMPTOM");
