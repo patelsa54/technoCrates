@@ -28,16 +28,15 @@
             android:contentDescription="@string/app_name" />
 
         <TextView
+            android:id="@+id/txtname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/app_name"
             android:layout_gravity="bottom|center_horizontal"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
+            android:textColor="@color/black"
             android:textSize="20sp"
-            android:textStyle="bold"
-            />
-
+            android:textStyle="bold" />
 
 
     </androidx.cardview.widget.CardView>

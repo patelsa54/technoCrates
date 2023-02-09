@@ -6,6 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
@@ -31,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
     RadioButton male;
     RadioButton female;
     RadioGroup rg;
+    Button digi_btn;
+    String name,password;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,16 +47,17 @@ public class MainActivity extends AppCompatActivity {
         male = findViewById(R.id.male);
         female = findViewById(R.id.female);
         rg=findViewById(R.id.rg1);
-
+        digi_btn = findViewById(R.id.digitalcard);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, t, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         NavigationView nav = findViewById(R.id.nav_view);
+
         enter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String name = nametext.getText().toString();
-                String password = passwordtext.getText().toString();
+                name = nametext.getText().toString();
+                password = passwordtext.getText().toString();
                 if (!nametext.getText().toString().isEmpty() && !passwordtext.getText().toString().isEmpty()) {
                     if (helper.insert(nametext.getText().toString(), passwordtext.getText().toString())) {
                         Toast.makeText(MainActivity.this, "Inserted", Toast.LENGTH_LONG).show();
@@ -116,6 +120,18 @@ public class MainActivity extends AppCompatActivity {
                 }
                 drawer.closeDrawer(GravityCompat.START);
                 return true;
+            }
+        });
+
+        digi_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Bundle bnd = new Bundle();
+                bnd.putString("name",name);
+                bnd.putString("password",password);
+                Intent i = new Intent(MainActivity.this, MainActivity5.class);
+                i.putExtras(bnd);
+                startActivity(i);
             }
         });
     }

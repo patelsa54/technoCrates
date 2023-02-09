@@ -25,10 +25,12 @@
         <entry key="..\:/MAP/Medi-Consult-master/MEDI CONSULT/app/src/main/res/layout/home.xml" value="0.25" />
         <entry key="..\:/MAP/Medi-Consult-master/MEDI CONSULT/app/src/main/res/layout/nav_header.xml" value="0.25" />
         <entry key="..\:/MAP/Medi-Consult-master/MEDI CONSULT/app/src/main/res/menu/drawer_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Asus/OneDrive/Documents/GitHub/technoCrates/MEDI CONSULT/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Asus/OneDrive/Documents/GitHub/technoCrates/MEDI CONSULT/app/src/main/res/layout/activity_main5.xml" value="0.17552083333333332" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
