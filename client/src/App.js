@@ -10,6 +10,7 @@ import Newappointment from './component/userdashboard/newappointment';
 import Personaldetail from './component/userdashboard/personaldetail';
 import Fillpersonaldata from './component/userdashboard/fillpersonaldata';
 import Createappointment from './component/userdashboard/createappointment';
+import Vaccination from './component/userdashboard/vaccination';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
         <Route exact path='/userdashboard' element={<Userdashboard/>}>
             <Route exact path="/userdashboard/createappointment" element={<Createappointment/>}></Route>
             <Route exact path="/userdashboard/personaldetail" element={<Personaldetail/>}></Route> 
-            <Route exact path="/userdashboard/fillpersonaldetails" element={<Fillpersonaldata/>}></Route>  
+            <Route exact path="/userdashboard/fillpersonaldetails" element={<Fillpersonaldata/>}></Route>
+            <Route exact path="/userdashboard/vaccination" element={<Vaccination/>}></Route>    
              
 
               
