@@ -1,14 +1,15 @@
 const router= require("express").Router();
-const {UserPersonalDetail}=require("../model/personaldetail")
+const {UserPersonalDetail}= require("../model/personaldetail");
 
 router.post("/",async(req,res)=>{
     try{
-        console.log("personal detail "+req.body);
-        user = await UserPersonalDetail.findOne({aadharNo: req.body.aadharNo})
+        
+        console.log(req.body);
+        user= await UserPersonalDetail.findOne({phoneNo: req.body.phoneNo})
         if(user)
             return res.send({message:"UnSuccessfull"});
         
-        await new UserPersonalDetail({...req.body}).save();
+            await new UserPersonalDetail({...req.body}).save();
 
         res.send({message:"Successfull"})
     }catch(error){

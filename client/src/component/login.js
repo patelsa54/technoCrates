@@ -22,7 +22,7 @@ function Login() {
         e.preventDefault();
         try{
             const url="http://localhost:5000/api/login";
-            axios.post(url, data).then(res=>{
+            await axios.post(url, data).then(res=>{
                 console.log(res.data.message)
               if(res.data.message=="Successfull")
               {

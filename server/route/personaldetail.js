@@ -2,7 +2,7 @@ const router= require("express").Router();
 
 const {UserPersonalDetail} = require("../model/personaldetail");
 
-router.post("/",async(req,res)=>{
+router.get("/",async(req,res)=>{
     try{
         console.log("aadhhar :"+req.query.aadharNo)
         console.log("phone no :"+req.query.phoneNo)

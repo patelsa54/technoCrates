@@ -34,7 +34,8 @@ function Register() {
               {
                 
                 console.log("User Succesfully registered")
-                navigate('/userdashboard')
+               
+                navigate('/')
               }
               else if(res.data.message=="UnSuccessfull")
               {

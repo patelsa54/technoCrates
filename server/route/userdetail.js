@@ -12,7 +12,7 @@ router.get("/",async(req,res)=>{
             } else {
                 console.log("data fetched with id : "+data);
                 console.log("data type : "+typeof(data));
-                res.json(data)
+                res.json(data);
             }
         })
     }catch(error){
