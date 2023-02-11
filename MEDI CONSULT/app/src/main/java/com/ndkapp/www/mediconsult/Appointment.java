@@ -35,9 +35,9 @@ public class Appointment extends AppCompatActivity {
                             @Override
                             public void onDateSet(DatePicker datePicker, int year, int month, int day) {
                                 ed.setText(day + "/" + (month + 1) + "/" + year);
-//                                Calendar dob = new GregorianCalendar(year, month, day);
-//                                Calendar currentDate = new GregorianCalendar();
-//                                int age = currentDate.get(Calendar.YEAR) - dob.get(Calendar.YEAR);
+                                Calendar dob = new GregorianCalendar(year, month, day);
+                                Calendar currentDate = new GregorianCalendar();
+                                int age = currentDate.get(Calendar.YEAR) - dob.get(Calendar.YEAR);
                             }
                         },year,month,day);
                 picker.show();
