@@ -3,7 +3,7 @@ Medical Consultancy App
 
 Medi-Consultant is a groundbreaking mobile app designed to provide accurate and timely medical advice and assistance. With its intuitive interface and integration with the ApiMedic API, Medi-Consultant allows users to input their symptoms and receive relevant information on precautionary measures to be taken, as well as access nearby hospital locations and emergency SOS call services.
 
-Key Features:
+# Key Features:
 
 Symptom-Based Guidance: Medi-Consultant harnesses the power of advanced technology to help users navigate their symptoms effectively. By inputting their symptoms into the app, users receive instant access to comprehensive information on potential causes, recommended precautions, and self-care measures.
 
@@ -19,4 +19,4 @@ User-Friendly Interface: Medi-Consultant features a user-friendly and intuitive 
 
 Data Security and Privacy: At Medi-Consultant, we prioritize the security and privacy of user data. Stringent measures are in place to protect sensitive information and ensure confidentiality throughout the user's journey within the app.
 
-Experience the power of Medi-Consultant - your intelligent medical advisor that empowers you with accurate information, quick access to healthcare services, and peace of mind during medical emergencies.
+# Experience the power of Medi-Consultant - your intelligent medical advisor that empowers you with accurate information, quick access to healthcare services, and peace of mind during medical emergencies.
