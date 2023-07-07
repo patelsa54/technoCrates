@@ -19,4 +19,4 @@ User-Friendly Interface: Medi-Consultant features a user-friendly and intuitive 
 
 Data Security and Privacy: At Medi-Consultant, we prioritize the security and privacy of user data. Stringent measures are in place to protect sensitive information and ensure confidentiality throughout the user's journey within the app.
 
-# Experience the power of Medi-Consultant - your intelligent medical advisor that empowers you with accurate information, quick access to healthcare services, and peace of mind during medical emergencies.
+### Experience the power of Medi-Consultant - your intelligent medical advisor that empowers you with accurate information, quick access to healthcare services, and peace of mind during medical emergencies.
